@@ -8,6 +8,12 @@
     box-sizing: inherit;
 }
 
+.webgl {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
 html {
     scroll-snap-type: y mandatory;
 }
@@ -16,7 +22,8 @@ body {
     box-sizing: border-box;
     height: 100%;
     font-family: 'Poppins', sans-serif;
-    width: 100%;
+    width: 100vw;
+    overflow-x: hidden;
     background-color: #ffc0cb;
 }
 
